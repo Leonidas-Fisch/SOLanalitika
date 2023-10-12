@@ -1,0 +1,100 @@
+#logo-link {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+#logo {
+    max-height: 60px; /* Adjust based on your design preference */
+    max-width: 100%; /* Ensures the image scales down if the container is too small */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Styling */
+header {
+    background-color: #4CAF50; /* Primary Color */
+    color: #ffffff; /* Text Color */
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333; /* Secondary Color */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 1em;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Main Content Styling */
+main {
+    padding: 30px;
+}
+
+section#welcome {
+    text-align: center;
+    padding: 2em;
+    background-color: #e9ecef; /* Light Gray */
+}
+
+h1, h2 {
+    color: #4CAF50; /* Primary Color */
+}
+
+section#features ul {
+    list-style: none;
+    padding: 20px;
+}
+
+section#features ul li {
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease;
+}
+
+section#features ul li:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+section#features ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333; /* Secondary Color */
+    color: white;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+}
